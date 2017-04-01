@@ -11,7 +11,7 @@
     </head>
     
     <body> 
-        <div class="container-fluid topbar">
+        <div class="container-fluid topbar fixed-top">
             <div class="top-left">
                 <span style="font-size:14px">English | 新中友协青年站</span>
                 <span class="pull-right" style="font-size:20px">
@@ -22,7 +22,7 @@
                 <span class="pull-right" style="font-size:14px; margin-right:8px"></span>
             </div>
         </div>
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
