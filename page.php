@@ -8,5 +8,5 @@ Template Name: Default Page
 
 <?php get_header(); ?>
 
-<?php echo "<br>";?>
+<?php echo " <br> this is page <br>";?>
 <?php get_footer(); ?>
