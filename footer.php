@@ -1,4 +1,5 @@
 
+
 <div class="back-top">
         <a href="javascript:scroll(0,0)"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
     </div>
@@ -60,17 +61,7 @@
 
 
     <!-- End Footer-->
-  
-
-    
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-  <!--   <script src="js/scripts.min.js"></script>
- -->
+<?php wp_footer(); ?>
+</body>
 </html>
 
-
-
-    <!-- End Footer-->
