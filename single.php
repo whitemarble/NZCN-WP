@@ -14,16 +14,14 @@
 <p class="article-meta post-content-aut ">
 by 
 <a href=""><?php 
-if (empty(the_author())) {
-echo "admin";
-}else{
-	the_author(); 
-}
+
+echo get_the_author_meta('display_name',$post->post_author);
+
 
 
 ?> </a>
  <i class="fa fa-clock-o" aria-hidden="true"></i> 
- <a href="">22/March/2017</a> 
+ <a href=""><?php echo get_the_date();?></a> 
  </p>
 <!-- <figure>
   <img src="https://ld-wp.template-help.com/wordpress_58404_v4/wp-content/uploads/2016/02/04.10.14_Obama-1170x780.jpg" style="width:100%;height:100%;"/>
