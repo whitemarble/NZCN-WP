@@ -13,7 +13,15 @@
 </h1>
 <p class="article-meta post-content-aut card-block">
 by 
-<a href=""><?php the_title(); ?> </a>
+<a href=""><?php 
+if (empty(the_author())) {
+echo "admin";
+}else{
+	the_author(); 
+}
+
+
+?> </a>
  <i class="fa fa-clock-o" aria-hidden="true"></i> 
  <a href="">22/March/2017</a> 
  </p>
