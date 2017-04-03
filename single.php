@@ -8,10 +8,10 @@
 
 	<content class="col-7 col-lg-7 main-content card post-content-artricle">
 
-<h1 class="post-content-title card-block">
+<h1 class="post-content-title card-title">
 	<?php the_title(); ?> 
 </h1>
-<p class="article-meta post-content-aut card-block">
+<p class="article-meta post-content-aut ">
 by 
 <a href=""><?php 
 if (empty(the_author())) {
@@ -28,7 +28,7 @@ echo "admin";
 <!-- <figure>
   <img src="https://ld-wp.template-help.com/wordpress_58404_v4/wp-content/uploads/2016/02/04.10.14_Obama-1170x780.jpg" style="width:100%;height:100%;"/>
 </figure> -->
-<article class="card-block post-content-artricle">
+<article class="card-text post-content-artricle">
 <?php 
 
 if (have_posts()) :
@@ -42,13 +42,8 @@ if (have_posts()) :
 
 	</content>
 	<aside class="col-4 col-lg-4 main-content">
-		
-aside 			
-aside 		
-aside 		
-aside 	
-aside 
 
+<?php get_sidebar(); ?> 
 	</aside>
 
 
