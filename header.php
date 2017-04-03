@@ -66,7 +66,7 @@
                 
                 <div class="modal-body">
                     <form class="form-inline my-2 my-lg-0" style="display:flex">
-                    <input class="form-control mr-sm-2" type="text" placeholder="请输入搜索内容" style="flex:1">
+                    <input id="topsearch" class="form-control mr-sm-2" type="text" placeholder="请输入搜索内容" style="flex:1" >
                     <button class="btn btn-outline-danger my-2 my-sm-0" type="submit" style="float:right"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </form>
                 </div>

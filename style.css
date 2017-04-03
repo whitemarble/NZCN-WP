@@ -13,12 +13,7 @@ a {
     color: #ff4e53
 }
 
-a:hover{
-    color:#fff;
-    text-decoration: none;
-    background:#ff4e53;
-    border-radius: 2px;
-}
+
 
 
 .container-fluid {
@@ -73,6 +68,10 @@ nav {
 .searchbtn {
     height: 40px;
     margin-top: 20px!important
+}
+
+#myModal{
+    top:80px
 }
 
 @media (min-width:993px) {
@@ -469,6 +468,9 @@ nav {
 
 .article-meta {
     padding-bottom: 5px
+}
+.article-meta span{
+    color:#ff4e53
 }
 
 .article-2 li {
