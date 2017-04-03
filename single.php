@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<<<<<<< HEAD
+=======
     <div class="container-fluid main-section post-content">
         <div class="row" >
 <div  class="col-1 col-lg-1 main-content">
@@ -61,5 +63,6 @@ aside
                     <i class="fa fa-weibo" aria-hidden="true"></i>
                     <i class="fa fa-weixin" aria-hidden="true"></i>
 </ul>
+>>>>>>> 9e43dec48acf2e401bd8f1e7fd8b9d1c1051db40
 
 <?php get_footer(); ?>
