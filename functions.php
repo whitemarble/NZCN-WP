@@ -3,8 +3,6 @@ function my_scripts_method() {
     
     wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css', false ); 
     wp_enqueue_style( 'core', get_template_directory_uri().'/style.css', false ); 
-    
-
     wp_deregister_script( 'jquery' );
     wp_register_script( 'jquery', 'https://code.jquery.com/jquery-3.1.1.slim.min.js',false,'',true);
     wp_enqueue_script( 'jquery');
