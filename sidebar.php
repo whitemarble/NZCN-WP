@@ -1,4 +1,5 @@
- <div class="sidebar-right">
+
+ 
                 <div class="follow-widget">
                     <h2 style="">Follow us</h2>
                     <p>Read our latest news on any of these social networks!</p>
@@ -20,30 +21,15 @@
                     <div class="card-block">
                         <h2 style="color:#ff4e53;margin-bottom:30px">Recent news</h2>
                         <ul class="news-widget">
+                        <?php 
+                            $latest_posts = get_posts( 'numberposts=6' );
+                            foreach($latest_posts as $post) :                
+                        ?>
                             <li>
-                                <h4>Israel’s right celebrates Donald Trump’s victory</h4>
-                                <p><i class="fa fa-clock-o" aria-hidden="true"></i> 22/March/2017</p>
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p><i class="fa fa-clock-o" aria-hidden="true"></i> <?php echo get_the_date();?></p>
                             </li>
-                            <li>
-                                <h4>Among 1M refugees, Berlin accepted ISIS terrorists</h4>
-                                <p><i class="fa fa-clock-o" aria-hidden="true"></i> 22/March/2017</p>
-                            </li>
-                            <li>
-                                <h4>Terrorism concerns get UK tourists opting in to ‘lighter’ holiday spots</h4>
-                                <p><i class="fa fa-clock-o" aria-hidden="true"></i> 22/March/2017</p>
-                            </li>
-                            <li>
-                                <h4>If Obama Had Ruled Like This in 2009, He’d Be the Reforming President We All Hoped For</h4>
-                                <p><i class="fa fa-clock-o" aria-hidden="true"></i> 22/March/2017</p>
-                            </li>
-                            <li>
-                                <h4>Clinton ‘Loves’ Proposal of Appointing Obama to Supreme Court as POTUS</h4>
-                                <p><i class="fa fa-clock-o" aria-hidden="true"></i> 22/March/2017</p>
-                            </li>
-                            <li>
-                                <h4>HealthCare.gov closes signups — register or get a penalty</h4>
-                                <p><i class="fa fa-clock-o" aria-hidden="true"></i> 22/March/2017</p>
-                            </li>
+                        <?php endforeach; ?>
                         </ul>
                     </div>
                 </div>
@@ -64,13 +50,18 @@
                     </ul>
                 </div>
                     
-
+                <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
                 <div style="margin-left:auto;margin-right:auto;margin-bottom:30px">
                     <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>                </div>
                 </div>
 
                 
             </div>
-        </div>
-    </div>
-
+   

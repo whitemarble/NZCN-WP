@@ -41,7 +41,7 @@ if (have_posts()) :
 </article>
 
 	</content>
-	<aside class="col-4 col-lg-4 main-content">
+	<aside class="col-12 col-lg-4 sidebar-right">
 
 <?php get_sidebar(); ?> 
 	</aside>
