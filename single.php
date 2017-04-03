@@ -14,11 +14,9 @@
 <p class="article-meta post-content-aut ">
 by 
 <a href=""><?php 
-if (empty(the_author())) {
-echo "admin";
-}else{
-	the_author(); 
-}
+
+echo get_the_author_meta('display_name',$post->post_author);
+
 
 
 ?> </a>
