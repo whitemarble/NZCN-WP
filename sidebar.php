@@ -33,6 +33,14 @@
                         </ul>
                     </div>
                 </div>
+                <div>
+                    
+<a class="twitter-timeline" href="https://twitter.com/nzchinasociety"
+ data-tweet-limit="2"
+>Tweets by nzchinasociety</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+                </div>
 <!-- 
                 <div class="pic-widget">
                     <h2 style="">Gallery</h2>
