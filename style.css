@@ -14,7 +14,9 @@ a {
 }
 
 
-
+body{
+    font-family:  "Microsoft YaHei", "微软雅黑", "Arial", serif;
+}
 
 .container-fluid {
     padding: 0 5%;
@@ -52,13 +54,22 @@ nav {
 }
 
 .nav-item {
-    border-bottom: solid 2px #fafafa
+    border-bottom: solid 2px #fafafa;
+    font-size:0.9rem
 }
 
 .topbar {
     background: #ff4e53;
     color: #fff;
     line-height: 20px
+}
+
+.topbar-language{
+    display:inline-block;
+}
+.topbar a{
+    color:#fff;
+    font-size:0.8rem
 }
 
 .top-left {
@@ -74,17 +85,25 @@ nav {
     top:80px
 }
 
+.dropdown-item{
+        color:rgba(0,0,0,0.5);
+        font-size:0.9rem 
+    }
+.dropdown-item:hover{
+        color: #ff4e53
+    }
+
 @media (min-width:993px) {
     .nav-item {
-        padding-top: 20px;
-        padding-bottom: 10px
+        padding-top: 25px;
+        padding-bottom: 15px
     }
     .nav-item.active {
         background: #ff4e53;
         border-bottom: solid 2px #ff4e53
     }
-    .nav-item.active a {
-        color: #fff!important
+    .nav-item.active .nav-link {
+        color: #fff !important
     }
     .nav-item:hover {
         border-bottom: solid 2px #ff4e53
