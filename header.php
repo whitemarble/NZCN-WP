@@ -11,13 +11,33 @@
     <body> 
         <div class="container-fluid topbar fixed-top">
             <div class="top-left">
-                <span style="font-size:14px">English | 新中友协青年站</span>
-                <span class="pull-right" style="font-size:20px">
-                    <i class="fa fa-facebook-square" aria-hidden="true" ></i>
-                    <i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i>
-                    <i class="fa fa-instagram" aria-hidden="true" style="margin-left:5px"></i>
+                <span style="font-size:14px">
+                    <?php 
+                    if (function_exists('icl_get_languages')){
+                        $languages = icl_get_languages('skip_missing=1');
+                        if (count($languages) > 1){
+                            foreach ($languages as $l) {
+                                if (!$l['active']) {
+                                    $items .= "<div class='topbar-language'>";
+                                    $items .= "<a href='{$l['url']}'>";
+                                    $items .= $l['native_name'];
+                                    $items .= "</a></div>";
+                                }
+                            }
+                        }
+                    }
+                    echo $items." | ";
+                    if(ICL_LANGUAGE_CODE=='en')
+                        echo "<a href='http://www.nzcfsyouth.org/'>NZCFS YOUTH</a>";
+                    else echo "<a href='http://www.nzcfsyouth.org/'>新中友协青年站</a>";
+                    ?>
                 </span>
-                <span class="pull-right" style="font-size:14px; margin-right:8px"></span>
+                <span class="pull-right">
+                    <a href="https://www.facebook.com/nzchinasociety" style="font-size:20px"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/nzchinasociety" style="font-size:20px"><i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://www.youtube.com/user/nzchinasociety" style="font-size:20px"><i class="fa fa-youtube-play" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://plus.google.com/101043413726480715544" style="font-size:20px"><i class="fa fa-google-plus-square" aria-hidden="true" style="margin-left:5px"></i></a>
+                </span>
             </div>
         </div>
         <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
@@ -28,33 +48,57 @@
 
             <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><?php _e('Home','nzcn-theme'); ?></a>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="gotochina" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <?php _e('GO TO CHINA','nzcn-theme'); ?>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="gotochina">
+                            <a class="dropdown-item" href="#">TOURS TO CHINA</a>
+                            <a class="dropdown-item" href="#">TEACH IN CHINA</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="newsarticles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <?php _e('NEWS & ARTICLES','nzcn-theme'); ?>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="newsarticles">
+                            <a class="dropdown-item" href="#">NATIONAL NEWS</a>
+                            <a class="dropdown-item" href="#">INTERESTING ARTICLES</a>
+                            <a class="dropdown-item" href="#">BRANCH NEWS</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">游览中国</a>
+                        <a class="nav-link" href="#"><?php _e('NZCFS CONFERENCE','nzcn-theme'); ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">在中国教书</a>
+                        <a class="nav-link" href="#"><?php _e('REWI ALLEY','nzcn-theme'); ?></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">新闻与活动</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <?php _e('ABOUT US','nzcn-theme'); ?>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="aboutus">
+                            <a class="dropdown-item" href="#">ABOUT</a>
+                            <a class="dropdown-item" href="#">NZCFS PROJECTS</a>
+                            <a class="dropdown-item" href="#">DONATE</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">路易艾黎</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">关于我们</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">联系我们</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="contactus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <?php _e('CONTACT US','nzcn-theme'); ?>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="contactus">
+                            <a class="dropdown-item" href="#">CONTACT</a>
+                            <a class="dropdown-item" href="#">JOIN NOW</a>
+                        </div>
                     </li>
                 </ul>
                 
-                <button class="btn btn-outline-danger my-2 my-sm-0 hidden-lg-down searchbtn" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-search" aria-hidden="true"></i></button>
-           
-                <form class="form-inline my-2 my-lg-0 hidden-lg-up" style="display:flex">
-                    <input class="form-control mr-sm-2" type="text" placeholder="请输入搜索内容" style="flex:1;margin-right:5px">
+
+                <button class="btn btn-outline-danger my-2 my-sm-0 hidden-md-down searchbtn" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-search" aria-hidden="true"></i></button>
+            
+                <form method="get" class="form-inline my-2 my-lg-0 hidden-lg-up" style="display:flex" action="/wordpress">
+                    <input name="s" class="form-control mr-sm-2" type="text" placeholder="请输入搜索内容" style="flex:1;margin-right:5px">
                     <button class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </form>
             </div>
@@ -75,4 +119,3 @@
             </div>
         </div>
         <!-- Modal End-->
-
