@@ -17,7 +17,7 @@
 
                 </div>
 
-                <div class="card recent-widget">
+            <!--     <div class="card recent-widget">
                     <div class="card-block">
                         <h2 style="color:#ff4e53;margin-bottom:30px">Recent news</h2>
                         <ul class="news-widget">
@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div> -->
                     
 <a class="twitter-timeline" href="https://twitter.com/nzchinasociety"
  data-tweet-limit="2"
