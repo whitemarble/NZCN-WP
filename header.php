@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">主页</a>
+                        <a class="nav-link" href="#"><?php _e('Home','nzcn-theme'); ?></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">游览中国</a>

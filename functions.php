@@ -58,4 +58,7 @@ function mmimg($postID) {
  return $shareimg;
 } 
 
+//-----------multi-language------------------------------
+load_theme_textdomain('nzcn-theme');
+
 ?>
