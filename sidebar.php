@@ -41,23 +41,6 @@
 
 
                 </div>
-<!-- 
-                <div class="pic-widget">
-                    <h2 style="">Gallery</h2>
-                    <ul class="pic-list">
-                        <li><img class="rounded" src="https://scontent.cdninstagram.com/t51.2885-15/e35/15403523_1457073911025264_1647863352430428160_n.jpg"></li>
-                        <li><img class="rounded" src="https://scontent.cdninstagram.com/t51.2885-15/e35/15403523_1457073911025264_1647863352430428160_n.jpg"></li>
-                        <li><img class="rounded" src="https://scontent.cdninstagram.com/t51.2885-15/e35/15403523_1457073911025264_1647863352430428160_n.jpg"></li>
-                        <li><img class="rounded" src="https://scontent.cdninstagram.com/t51.2885-15/e35/15403523_1457073911025264_1647863352430428160_n.jpg"></li>
-                        <li><img class="rounded" src="https://scontent.cdninstagram.com/t51.2885-15/e35/15403523_1457073911025264_1647863352430428160_n.jpg"></li>
-                        <li><img class="rounded" src="https://scontent.cdninstagram.com/t51.2885-15/e35/15403523_1457073911025264_1647863352430428160_n.jpg"></li>
-                        <li><img class="rounded" src="https://scontent.cdninstagram.com/t51.2885-15/e35/15403523_1457073911025264_1647863352430428160_n.jpg"></li>
-                        <li><img class="rounded" src="https://scontent.cdninstagram.com/t51.2885-15/e35/15403523_1457073911025264_1647863352430428160_n.jpg"></li>
-                        <li><img class="rounded" src="https://scontent.cdninstagram.com/t51.2885-15/e35/15403523_1457073911025264_1647863352430428160_n.jpg"></li>
-                        <li><img class="rounded" src="https://scontent.cdninstagram.com/t51.2885-15/e35/15403523_1457073911025264_1647863352430428160_n.jpg"></li>
-                    </ul>
-                </div>
-                     -->
                 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
