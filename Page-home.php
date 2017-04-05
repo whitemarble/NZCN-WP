@@ -14,7 +14,8 @@ Template Name: Home Page
                 <ul class="big-news">
                     <?php
                     $post_index = 0;
-                    $breaking_array = get_posts( 'numberposts=5' );
+                    //'suppress_filters' => false  仅获取当前语言文章
+                    $breaking_array = get_posts( 'numberposts=5&suppress_filters=0' );
                     foreach($breaking_array as $post) :  
                     ?>
                         <li class="<?php if($post_index==0) echo 'first-news'; else echo ''?>">
@@ -59,7 +60,7 @@ Template Name: Home Page
                         <h2 class="title-2"><span>Latest News</span></h2>
                         <ul class="article-2">
                             <?php 
-                            $latest_posts = get_posts( 'numberposts=4' );
+                            $latest_posts = get_posts( 'numberposts=4&suppress_filters=0' );
                             foreach($latest_posts as $post) :                
                             ?>
                             <li>
@@ -90,7 +91,7 @@ Template Name: Home Page
                         <h2 class="title-2"><span>Latest News</span></h2>
                         <ul class="article-1">
                         <?php 
-                            $latest_posts = get_posts( 'numberposts=6' );
+                            $latest_posts = get_posts( 'numberposts=6&suppress_filters=0' );
                             foreach($latest_posts as $post) :                
                         ?>
                             <li>
