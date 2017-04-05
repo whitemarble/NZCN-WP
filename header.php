@@ -52,7 +52,7 @@
                 </ul>
                 
                 <button class="btn btn-outline-danger my-2 my-sm-0 hidden-lg-down searchbtn" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-search" aria-hidden="true"></i></button>
-            
+           
                 <form class="form-inline my-2 my-lg-0 hidden-lg-up" style="display:flex">
                     <input class="form-control mr-sm-2" type="text" placeholder="请输入搜索内容" style="flex:1;margin-right:5px">
                     <button class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
