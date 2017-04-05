@@ -567,6 +567,11 @@ nav {
  text-align: justify ;
 */
 }
-h5 p{
+.post-content-artricle h5{
     line-height: 1.5em;
 }
+.post-content-artricle p{
+
+ line-height: 1.5em;
+}
+
