@@ -563,6 +563,7 @@ nav {
 }
 .post-content-artricle{
     line-height: 0.5em;
+    overflow: hidden;
 /* min-height: 60em;
  text-align: justify ;
 */
