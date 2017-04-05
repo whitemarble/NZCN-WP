@@ -24,7 +24,9 @@ Template Name: Search Page
                             foreach( $posts as $post) :   
                             the_post();              
                         ?>
+                        <div class="card">
                             <li>
+                    
                                 <div class="article-img">
                                 <img src="<?php 
                                     if(has_post_thumbnail($post->ID))
@@ -37,13 +39,16 @@ Template Name: Search Page
                                 <p class="article-meta">by <span><?php echo get_the_author_meta('display_name',$post->post_author); ?></span> <i class="fa fa-clock-o" aria-hidden="true"></i> <span><?php echo get_the_date();?></span></p>
                                 <p class="short-description"><?php the_excerpt(); ?></p>
                                 </div>
+
                             </li>
+                         </div>
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
                     </div>
                 </div>
     </content>
+
     <aside class="col-12 col-lg-4 sidebar-right">
 
 <?php get_sidebar(); ?> 
