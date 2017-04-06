@@ -42,6 +42,9 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<div>
+<h4 class="timeline-Header-title u-inlineBlock">Facebook </h4>
+</div>
 
 <div class="fb-page"
   data-href="https://www.facebook.com/NZChinaSociety/" 
