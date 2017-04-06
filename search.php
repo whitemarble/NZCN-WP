@@ -13,7 +13,7 @@ Template Name: Search Page
 
 </div>
 
-    <content class="col-7 col-lg-7 main-content  post-content-artricle">
+    <content class="col-12 col-lg-7 main-content  post-content-artricle">
     <div class="row">
                     <div class="col-12">
 
