@@ -32,15 +32,9 @@
                         <?php endforeach; ?>
                         </ul>
                     </div>
-                </div>
-                <div> -->
-                    
-<a class="twitter-timeline" href="https://twitter.com/nzchinasociety"
- data-tweet-limit="2"
->Tweets by nzchinasociety</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div> -->
 
 
-                </div>
                 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -53,3 +47,12 @@
                     <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>                </div>
                
    
+
+                   <div> 
+                    
+<a class="twitter-timeline" href="https://twitter.com/nzchinasociety"
+ data-tweet-limit="2"
+>Tweets by nzchinasociety</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+                </div>
