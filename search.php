@@ -20,10 +20,19 @@ Template Name: Search Page
                         <ul class="article-1">
 <?php 
  $posts=query_posts($query_string .'&posts_per_page=20'); 
-                        if (have_posts()) :     
+                        if (have_posts()) :      ?>
+  <div class="alert alert-danger" role="alert">
+  <strong>Well done!</strong> Your search result is .<?php
+
+echo count( $posts);
+?>
+</div>
+<?php 
                             foreach( $posts as $post) :   
                             the_post();              
                         ?>
+                      
+
                         <div class="card">
                             <li>
                     
@@ -46,6 +55,25 @@ Template Name: Search Page
                             <?php endif; ?>
                         </ul>
                     </div>
+                </div>
+                <div class="">
+<nav>
+  <ul class="pagination pagination-lg">
+    <li>
+      <a href="#" aria-label="Previous">
+      <span aria-hidden="true">«</span>
+      </a>
+    </li>
+   <?php echo paginate_links( $args ); ?>
+    <li>
+      <a href="#" aria-label="Next">
+      <span aria-hidden="true">»</span>
+      </a>
+    </li>
+  </ul>
+</nav>        
+
+                
                 </div>
     </content>
 
