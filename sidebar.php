@@ -43,7 +43,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-<div class="timeline-Header-title">Facebook </div>
+<h6 class="timeline-Header-title">Facebook </h6>
   
 
 
