@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                 </div> -->
-<div id="fb-root"></div>
+<div id="fb-root" ></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -42,15 +42,15 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="fb-page" 
-  data-href="https://www.facebook.com/NZChinaSociety/"
-  data-width="380" 
+
+<div class="fb-page"
+  data-href="https://www.facebook.com/NZChinaSociety/" 
+  data-width="340"
   data-hide-cover="false"
-  data-show-facepile="false" 
-  data-show-posts="false"></div>
+  data-show-facepile="true"></div>
    
 
-                   <div> 
+                   <div style="margin-top:2ex "> 
                     
 <a class="twitter-timeline" href="https://twitter.com/nzchinasociety"
  data-tweet-limit="2"

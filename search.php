@@ -56,7 +56,7 @@ echo count( $posts);
                         </ul>
                     </div>
                 </div>
-                <div class="">
+              
 <nav>
   <ul class="pagination pagination-lg">
     <li>
@@ -73,8 +73,7 @@ echo count( $posts);
   </ul>
 </nav>        
 
-                
-                </div>
+          
     </content>
 
     <aside class="col-12 col-lg-4 sidebar-right">
