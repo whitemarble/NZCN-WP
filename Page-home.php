@@ -78,7 +78,7 @@ Template Name: Home Page
                                 <div class="article-content">
                                 <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                                 <p class="article-meta">by <span><?php echo get_the_author_meta('display_name',$post->post_author); ?></span> <i class="fa fa-clock-o" aria-hidden="true"></i> <span><?php echo get_the_date();?></span></p>
-                                <p class="short-description"><?php the_excerpt();?></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
                                 </div>
                             </li>
                             <?php endforeach; ?>
