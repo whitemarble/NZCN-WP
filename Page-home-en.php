@@ -96,7 +96,8 @@ Template Name: Home Page English
                         <h3 class="title-2"><span>SEE MORE OF CHINA WITH NZCFS TOURS</span></h3>
                         <ul class="article-1">
                         <?php 
-                            $post = get_post( '2' );         
+                            $latest_posts = get_posts( 'numberposts=2&category=68&suppress_filters=0' );
+                            foreach($latest_posts as $post) :                
                         ?>
                             <li>
                                 <div class="article-img">
@@ -112,7 +113,7 @@ Template Name: Home Page English
                                 <p class="short-description"><?php the_excerpt(); ?></p>
                                 </div>
                             </li>
-                            
+                            <?php endforeach; ?>
                         </ul>
                     </div>
                 </div>
@@ -125,7 +126,7 @@ Template Name: Home Page English
                         <h2 class="title-2"><span>NEW TO NEW ZEALAND</span></h2>
                         <ul class="article-1">
                         <?php 
-                            $post = get_post( '1' );               
+                            $post = get_post( '4680' );               
                         ?>
                             <li>
                                 <div class="article-img">
