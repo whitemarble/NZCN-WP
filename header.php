@@ -3,6 +3,7 @@
 <html <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title><?php wp_title(); ?></title>
         <?php //if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
         <?php wp_head(); ?>
@@ -68,27 +69,27 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><?php _e('NZCFS CONFERENCE','nzcn-theme'); ?></a>
+                        <a class="nav-link" href="#"><?php _e('CONFERENCE','nzcn-theme'); ?></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><?php _e('REWI ALLEY','nzcn-theme'); ?></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="aboutus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <?php _e('ABOUT US','nzcn-theme'); ?>
+                        <?php _e('ABOUT','nzcn-theme'); ?>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="aboutus">
-                            <a class="dropdown-item" href="#">ABOUT</a>
+                            <a class="dropdown-item" href="#">ABOUT US</a>
                             <a class="dropdown-item" href="#">NZCFS PROJECTS</a>
                             <a class="dropdown-item" href="#">DONATE</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="contactus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <?php _e('CONTACT US','nzcn-theme'); ?>
+                        <?php _e('CONTACT','nzcn-theme'); ?>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="contactus">
-                            <a class="dropdown-item" href="#">CONTACT</a>
+                            <a class="dropdown-item" href="#">CONTACT US</a>
                             <a class="dropdown-item" href="#">JOIN NOW</a>
                         </div>
                     </li>
