@@ -67,8 +67,8 @@ Template Name: Home Page English
                                 <div class="article-img">
                                 <img src="<?php 
                                     if(has_post_thumbnail($post->ID))
-                                        the_post_thumbnail_url( 'large' );
-                                    //else echo mmimg($post->ID);
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
                                  ?>" class="img-fluid" alt="Responsive image">
                                 </div>
                                 <div class="article-content">
@@ -103,8 +103,8 @@ Template Name: Home Page English
                                 <div class="article-img">
                                 <img src="<?php 
                                     if(has_post_thumbnail($post->ID))
-                                        the_post_thumbnail_url( 'thumbnail' );
-                                    //else echo mmimg($post->ID);
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
                                  ?>" class="img-fluid" alt="Responsive image">
                                 </div>
                                 <div class="article-content">
@@ -132,8 +132,8 @@ Template Name: Home Page English
                                 <div class="article-img">
                                 <img src="<?php 
                                     if(has_post_thumbnail($post->ID))
-                                        the_post_thumbnail_url( 'large' );
-                                    //else echo mmimg($post->ID);
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
                                  ?>" class="img-fluid" alt="Responsive image">
                                 </div>
                                 <div class="article-content">

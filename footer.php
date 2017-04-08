@@ -6,47 +6,36 @@
     <div class="container-fluid footer">
         <div class="row">
             <div class="col-lg-3 col-md-6 col-12">
-                <div class="title-3"><span>About us</span></div>
-                <p style="color:#333;text-align:justify;padding-right:30px;padding-left:15px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, 
-                    remaining essentially unchanged.</p>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
                 <div class="title-3"><span>Category</span></div>
                 <ul class="widget-menu">
-                    <li><a>World</a></li>
-                    <li><a>Business</a></li>
-                    <li><a>Finance</a></li>
-                    <li><a>New Zealand</a></li>
-                    <li><a>Sport</a></li>
-                    <li><a>Live</a></li>
+                    <li><a href="/news/tours-to-china/">Tours to China</a></li>
+                    <li><a href="/news/teach-in-china/">Teach in China</a></li>
+                    <li><a href="/news/updates/news-and-events/">National News and Events</a></li>
+                    <li><a href="/news/updates/nzcfs-national-conference/">NZCFS Conference</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="title-3"><span>Information</span></div>
                 <ul class="widget-menu">
-                    <li><a>About us</a></li>
-                    <li><a>Contact us</a></li>
-                    <li><a>Facebook</a></li>
-                    <li><a>Twitter</a></li>
-                    <li><a>Terms & Conditions</a></li>
-                    <li><a>Privacy Policy</a></li>
+                    <li><a href="/news/project-updates/">NZCFS Projects</a></li>
+                    <li><a href="/join-now/">Join us</a></li>
+                    <li><a href="/donations/">Donate</a></li>
+                    <li><a href="/contact-us/">Contact us</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
-                <div class="title-3"><span>Subscribe</span></div>
-                <p style="color:#333;text-align:justify;padding-right:30px;padding-left:15px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                <form class="form-inline my-2 my-lg-0" style="display:flex">
-                <input class="form-control mr-sm-2" type="text" placeholder="请输您的Email" style="flex:1">
-                <button class="btn btn-danger my-2 my-sm-0" type="submit" style="float:right">订阅</button>
-                </form>
-                <p style="color:#ff4e53;font-size:2rem;text-align:center;margin-top:20px"><i class="fa fa-facebook-square" aria-hidden="true" ></i>
-                    <i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i>
-                    <i class="fa fa-instagram" aria-hidden="true" style="margin-left:5px"></i>
-                    <i class="fa fa-weibo" aria-hidden="true"></i>
-                    <i class="fa fa-weixin" aria-hidden="true"></i></p>
+                <div class="title-3"><span>About us</span></div>
+                <p style="color:#333;text-align:justify;padding-right:30px;padding-left:15px">The New Zealand China Friendship Society has had sixty years experience working with China. This has given us strong connections and good contacts.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="title-3"><span>SUBSCRIBE TO A BRANCH NEWSLETTER</span></div>
+                <p style="color:#333;text-align:justify;padding-right:30px;padding-left:15px">Enter your email address to receive branch newsletters by email. </p>
+                <?php //gravity_form( 1, false, false, false, '', false ); ?>
+                <p style="color:#ff4e53;font-size:2rem;text-align:center;margin-top:20px">
+                    <a href="https://www.facebook.com/nzchinasociety"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/nzchinasociety"><i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://www.youtube.com/user/nzchinasociety"><i class="fa fa-youtube-play" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://plus.google.com/101043413726480715544"><i class="fa fa-google-plus-square" aria-hidden="true" style="margin-left:5px"></i></a></p>
             </div>
         </div>
     </div>

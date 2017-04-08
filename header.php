@@ -50,38 +50,38 @@
             <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="gotochina" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="" id="gotochina" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <?php _e('GO TO CHINA','nzcn-theme'); ?>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="gotochina">
-                            <a class="dropdown-item" href="#">TOURS TO CHINA</a>
-                            <a class="dropdown-item" href="#">TEACH IN CHINA</a>
+                            <a class="dropdown-item" href="/news/tours-to-china/">TOURS TO CHINA</a>
+                            <a class="dropdown-item" href="/news/teach-in-china/">TEACH IN CHINA</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="newsarticles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="" id="newsarticles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <?php _e('NEWS & ARTICLES','nzcn-theme'); ?>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="newsarticles">
-                            <a class="dropdown-item" href="#">NATIONAL NEWS</a>
-                            <a class="dropdown-item" href="#">INTERESTING ARTICLES</a>
+                            <a class="dropdown-item" href="/news/updates/news-and-events/">NATIONAL NEWS</a>
+                            <a class="dropdown-item" href="/news/updates/interesting-articles/">INTERESTING ARTICLES</a>
                             <a class="dropdown-item" href="#">BRANCH NEWS</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><?php _e('CONFERENCE','nzcn-theme'); ?></a>
+                        <a class="nav-link" href="/news/updates/nzcfs-national-conference/"><?php _e('CONFERENCE','nzcn-theme'); ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><?php _e('REWI ALLEY','nzcn-theme'); ?></a>
+                        <a class="nav-link" href="/rewi-alley/"><?php _e('REWI ALLEY','nzcn-theme'); ?></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="aboutus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <?php _e('ABOUT','nzcn-theme'); ?>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="aboutus">
-                            <a class="dropdown-item" href="#">ABOUT US</a>
-                            <a class="dropdown-item" href="#">NZCFS PROJECTS</a>
-                            <a class="dropdown-item" href="#">DONATE</a>
+                            <a class="dropdown-item" href="/about-the-new-zealand-china-friendship-society/">ABOUT US</a>
+                            <a class="dropdown-item" href="/news/project-updates/">NZCFS PROJECTS</a>
+                            <a class="dropdown-item" href="/donations/">DONATE</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -89,8 +89,8 @@
                         <?php _e('CONTACT','nzcn-theme'); ?>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="contactus">
-                            <a class="dropdown-item" href="#">CONTACT US</a>
-                            <a class="dropdown-item" href="#">JOIN NOW</a>
+                            <a class="dropdown-item" href="/contact-us/">CONTACT US</a>
+                            <a class="dropdown-item" href="/join-now/">JOIN NOW</a>
                         </div>
                     </li>
                 </ul>

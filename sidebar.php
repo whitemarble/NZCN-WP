@@ -8,12 +8,9 @@
                     <i class="fa fa-instagram" aria-hidden="true" style="margin-left:5px"></i>
                     <i class="fa fa-weibo" aria-hidden="true"></i>
                     <i class="fa fa-weixin" aria-hidden="true"></i></p>
-                    <h2>Get latest news delivered daily!</h2>
-                    <p>We will send you breaking news right to your inbox</p>
-                    <form class="form-inline my-2 my-lg-0" style="display:flex">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Please enter your Email" style="flex:1">
-                    <button class="btn btn-danger my-2 my-sm-0" type="submit" style="float:right">Submit</button>
-                    </form>
+                    <h2>SUBSCRIBE TO A BRANCH NEWSLETTER</h2>
+                    <p>Enter your email address to receive branch newsletters by email.</p>
+                    <?php //gravity_form( 1, false, false, false, '', false ); ?>
 
                 </div>
 
