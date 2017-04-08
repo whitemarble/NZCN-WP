@@ -591,7 +591,7 @@ nav {
 
 .post-content {
     min-height: 40em;
-    margin-top: 10em
+    margin-top: 8em
 }
 .post-content-title{
 
@@ -700,5 +700,14 @@ nav {
 
     display: block;
 }
+
+}
+
+.page-title span{
+  color: #fff;
+  background: #ff4e53;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
 
 }

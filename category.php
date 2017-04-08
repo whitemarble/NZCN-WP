@@ -14,26 +14,27 @@ Template Name: category Page
 </div>
 
     <content class="col-12 col-lg-7 main-content  post-content-artricle">
-    <div class="row">
-                    <div class="col-12">
-
-                        <ul class="article-1">
+    <!--<div class="row">
+                    <div class="col-12">-->
 <?php 
- $posts=query_posts($query_string .'&posts_per_page=20'); 
+ $posts=query_posts($query_string .'&posts_per_page=15'); 
                         if (have_posts()) :      ?>
-  <div class="alert alert-danger" role="alert">
-  <strong></strong> this is category .<?php
+  
 
-echo count( $posts);
-?>
-</div>
+
+  <h3 class="page-title"><span><?php echo  get_the_category($posts[0]->id)[0]->name;?></span></h3>
+  <div class="card">
+                        <ul class="article-1">
+
+
+
 <?php 
                             foreach( $posts as $post) :   
                             the_post();              
                         ?>
                       
 
-                        <div class="card">
+                        
                             <li>
                     
                                 <div class="article-img">
@@ -50,15 +51,16 @@ echo count( $posts);
                                 </div>
 
                             </li>
-                         </div>
+                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
-                    </div>
-                </div>
-              
-<nav>
-  <ul class="pagination pagination-lg">
+                        </div>
+                   <!-- </div>
+                </div>-->
+<?php if  (count($posts)>15): ?>              
+<nav class="card" style="height: 2em">
+  <ul class="pagination pagination-lg" style="margin-bottom:30px">
     <li>
       <a href="#" aria-label="Previous">
       <span aria-hidden="true">«</span>
@@ -72,7 +74,7 @@ echo count( $posts);
     </li>
   </ul>
 </nav>        
-
+ <?php endif; ?>
           
     </content>
 
