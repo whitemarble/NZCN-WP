@@ -6,7 +6,7 @@
 
 </div>
 
-	<content class="col-7 col-lg-7 main-content card post-content-artricle">
+	<content class="col-12 col-lg-7 main-content card post-content-artricle">
 
 <h1 class="post-content-title card-title">
 	<?php the_title(); ?> 

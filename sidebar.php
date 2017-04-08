@@ -46,8 +46,9 @@
 
 <div class="">
 <div class="fb-page"
+   style="margin-left: auto; margin-right: auto" 
   data-href="https://www.facebook.com/NZChinaSociety/" 
-  data-width="340"
+  data-width="768"
   data-hide-cover="false"
   data-show-facepile="true"></div>
    
