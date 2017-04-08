@@ -605,8 +605,7 @@ nav {
   /*  // height: 1em;*/
 }
 .post-content-artricle{
-    line-height: 0.5em;
-    overflow: hidden;
+   /* line-height: 0.5em;
 /* min-height: 60em;
  text-align: justify ;
 */
@@ -703,11 +702,14 @@ nav {
 
 }
 
+.page-title{
+    margin-bottom:20px
+}
+
 .page-title span{
   color: #fff;
   background: #ff4e53;
-  padding: 1rem;
-  margin-bottom: 1rem;
-
+  padding: 8px 15px;
+  border-radius: 3px
 
 }
