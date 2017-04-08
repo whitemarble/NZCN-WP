@@ -668,7 +668,7 @@ nav {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
 }
 
-.gform_fields .gform_button{
+.gform_footer .gform_button{
     display: inline-block;
     font-weight: 400;
     line-height: 1.25;

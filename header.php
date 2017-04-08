@@ -14,7 +14,7 @@
             <div class="top-left">
                 <span style="font-size:14px">
                     <?php 
-                    if (function_exists('icl_get_languages')){
+                    /*if (function_exists('icl_get_languages')){
                         $languages = icl_get_languages('skip_missing=1');
                         if (count($languages) > 1){
                             foreach ($languages as $l) {
@@ -27,7 +27,8 @@
                             }
                         }
                     }
-                    echo $items." | ";
+                    echo $items." | ";*/
+                    echo "简体中文 | ";
                     if(ICL_LANGUAGE_CODE=='en')
                         echo "<a href='http://www.nzcfsyouth.org/'>NZCFS YOUTH</a>";
                     else echo "<a href='http://www.nzcfsyouth.org/'>新中友协青年站</a>";
@@ -45,7 +46,7 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#" style="position:absolute;top:0px;z-index:999"><img src=<?php echo'"'.get_template_directory_uri().'/img/logo.png"'; ?> style="height:auto"></a>
+            <a class="navbar-brand" href="/" style="position:absolute;top:0px;z-index:999"><img src=<?php echo'"'.get_template_directory_uri().'/img/logo.png"'; ?> style="height:auto"></a>
 
             <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav mr-auto">
