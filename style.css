@@ -332,6 +332,7 @@ nav {
 .footer {
     background: #f2f3f4;
     padding-top: 3rem;
+    display: none;
     padding-bottom: 4rem
 }
 
@@ -622,5 +623,11 @@ nav {
 .post-social{
     display: block;
 }
+
+.footer{
+
+    display: block;
+}
+
 }
 
