@@ -13,7 +13,7 @@ Template Name: branch Page
         <div class="col-12 col-lg-8 card" style="padding-top: 1em">
        
           <ul style="line-height: 3em">
-          	<li style=""><a href="">Auckland News and Events</a></li>
+          	<li  style="font-size: 1.4em;color: red"><a href="">Auckland News and Events</a></li>
    <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
@@ -60,7 +60,7 @@ Template Name: branch Page
 
 
 
-          <li><a href="">Christchurch News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Christchurch News and Events</a></li>
 
           <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
@@ -105,14 +105,14 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Dunedin News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Dunedin News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -150,7 +150,7 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Hamilton News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Hamilton News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
@@ -194,7 +194,7 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Hawkes Bay News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Hawkes Bay News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
@@ -237,14 +237,14 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Manawatu News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Manawatu News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -280,14 +280,14 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Nelson News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Nelson News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -323,14 +323,14 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Rotorua News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Rotorua News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -366,14 +366,14 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Taranaki News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Taranaki News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -409,14 +409,14 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Tauranga News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Tauranga News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -452,14 +452,14 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Timaru News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Timaru News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -495,14 +495,14 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Wairarapa News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Wairarapa News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -540,14 +540,14 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-          <li><a href="">Wellington News and Events</a></li>
+         <li><a href="" style="font-size: 1.4em;color: red">Wellington News and Events</a></li>
              <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -585,14 +585,14 @@ Template Name: branch Page
                             <?php endif; ?>
                         </ul>
                         </div>
-           <li><a href="">Whanganui News and Events</a></li>
+          <li><a href="" style="font-size: 1.4em;color: red">Whanganui News and Events</a></li>
               <?php 
  $posts=query_posts($query_string .'&posts_per_page=1'); 
                         if (have_posts()) :      ?>
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
