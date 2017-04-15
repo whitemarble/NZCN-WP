@@ -3,7 +3,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="/" style="position:absolute;top:0px;z-index:999"><img src=<?php echo'"'.get_template_directory_uri().'/img/logo.png"'; ?> style="height:auto"></a>
-            <span class="sitename-menu"><?php _e('New Zealand China Friendship Society','nzcn-theme'); ?></span>
+            <span class="sitename-menu">New Zealand China Friendship Society</span>
             <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -11,7 +11,7 @@
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="" id="gotochina" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <?php _e('GO TO CHINA','nzcn-theme'); ?>
+                        GO TO CHINA
                         </a>
                         <div class="dropdown-menu" aria-labelledby="gotochina">
                             <a class="dropdown-item" href="/news/tours-to-china/">TOURS TO CHINA</a>
@@ -20,7 +20,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="newsarticles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <?php _e('NEWS & ARTICLES','nzcn-theme'); ?>
+                        NEWS & ARTICLES
                         </a>
                         <div class="dropdown-menu" aria-labelledby="newsarticles">
                             <a class="dropdown-item" href="/news/updates/news-and-events/">NATIONAL NEWS</a>
@@ -36,7 +36,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="aboutus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <?php _e('ABOUT','nzcn-theme'); ?>
+                        ABOUT
                         </a>
                         <div class="dropdown-menu" aria-labelledby="aboutus">
                             <a class="dropdown-item" href="/about-the-new-zealand-china-friendship-society/">ABOUT US</a>
@@ -46,7 +46,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="contactus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <?php _e('CONTACT','nzcn-theme'); ?>
+                        CONTACT
                         </a>
                         <div class="dropdown-menu" aria-labelledby="contactus">
                             <a class="dropdown-item" href="/contact-us/">CONTACT US</a>

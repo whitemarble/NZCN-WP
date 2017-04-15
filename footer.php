@@ -21,6 +21,7 @@
                     <li><a href="/join-now/">Join us</a></li>
                     <li><a href="/donations/">Donate</a></li>
                     <li><a href="/contact-us/">Contact us</a></li>
+                    <li><a href="<?php bloginfo('rss2_url'); ?>">RSS</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
