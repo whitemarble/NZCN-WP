@@ -31,11 +31,11 @@
                 <div class="title-3"><span>Follow us</span></div>
                 <!--<p style="color:#333;text-align:justify;padding-right:30px;padding-left:15px">Enter your email address to receive branch newsletters by email. </p>-->
                 <?php //gravity_form( 1, false, false, false, '', false ); ?>
-                <p style="color:#ff4e53;font-size:4rem;text-align:center;margin-top:20px">
-                    <a href="https://www.facebook.com/nzchinasociety"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/nzchinasociety"><i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i></a>
-                    <a href="https://www.youtube.com/user/nzchinasociety"><i class="fa fa-youtube-play" aria-hidden="true" style="margin-left:5px"></i></a>
-                    <a href="https://plus.google.com/101043413726480715544"><i class="fa fa-google-plus-square" aria-hidden="true" style="margin-left:5px"></i></a></p>
+                <p style="color:#ff4e53;font-size:3rem;text-align:center;margin-top:20px">
+                    <a href="https://www.facebook.com/nzchinasociety" style="color:#2a388f"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/nzchinasociety" style="color:#26a9e0"><i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://www.youtube.com/user/nzchinasociety" style="color:#ed1b23"><i class="fa fa-youtube-play" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://plus.google.com/101043413726480715544" style="color:#e64522"><i class="fa fa-google-plus-square" aria-hidden="true" style="margin-left:5px"></i></a></p>
             </div>
         </div>
     </div>
