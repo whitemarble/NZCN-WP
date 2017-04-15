@@ -35,7 +35,12 @@
                     ?>
                 </span>
                 <span class="pull-right">
-                    <a href="https://www.facebook.com/nzchinasociety" style="font-size:20px"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/nzchinasociety" style="font-size:20px"><i class="fa fa-facebook-square" aria-hidden="true"
+
+                    data-toggle="tooltip" data-html="true" title="64eretret"
+                    ></i></a>
+
+
                     <a href="https://twitter.com/nzchinasociety" style="font-size:20px"><i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i></a>
                     <a href="https://www.youtube.com/user/nzchinasociety" style="font-size:20px"><i class="fa fa-youtube-play" aria-hidden="true" style="margin-left:5px"></i></a>
                     <a href="https://plus.google.com/101043413726480715544" style="font-size:20px"><i class="fa fa-google-plus-square" aria-hidden="true" style="margin-left:5px"></i></a>

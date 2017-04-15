@@ -755,3 +755,17 @@ nav {
   border-radius: 3px
 
 }
+
+.meta-tooltip {
+    display: none;
+    background: #2f3038;
+    position: absolute;
+    right: -235px;
+    width: 250px;
+    min-height: 70px;
+    top: 0;
+    text-align: left;
+    padding: 12px 20px;
+    z-index: 1020;
+    margin: 0 0 0 20px;
+}
