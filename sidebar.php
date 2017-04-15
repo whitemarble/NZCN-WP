@@ -1,14 +1,14 @@
 
  
                 <div class="follow-widget">
-                    <h2 style="">Follow us</h2>
+                    <!--<h2 style="">Follow us</h2>
                     <p>Read our latest news on any of these social networks!</p>
                     <p style="font-size:2.2rem;color:#ff4e53;border-bottom:dotted 1px #333;padding-bottom:1rem"><i class="fa fa-facebook-square" aria-hidden="true" ></i>
                     <i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i>
                     <i class="fa fa-instagram" aria-hidden="true" style="margin-left:5px"></i>
                     <i class="fa fa-weibo" aria-hidden="true"></i>
-                    <i class="fa fa-weixin" aria-hidden="true"></i></p>
-                    <h2>SUBSCRIBE TO A BRANCH NEWSLETTER</h2>
+                    <i class="fa fa-weixin" aria-hidden="true"></i></p>-->
+                    <h3>SUBSCRIBE NEWSLETTER</h3>
                     <p>Enter your email address to receive branch newsletters by email.</p>
                     <?php //gravity_form( 1, false, false, false, '', false ); ?>
 
@@ -40,7 +40,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-<h6 class="timeline-Header-title">Facebook </h6>
+<!--<h3 style="padding-left:20px">Facebook </h3>-->
   
 
 

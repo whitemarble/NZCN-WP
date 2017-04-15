@@ -28,10 +28,10 @@
                 <p style="color:#333;text-align:justify;padding-right:30px;padding-left:15px">The New Zealand China Friendship Society has had sixty years experience working with China. This has given us strong connections and good contacts.</p>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
-                <div class="title-3"><span>SUBSCRIBE TO A BRANCH NEWSLETTER</span></div>
-                <p style="color:#333;text-align:justify;padding-right:30px;padding-left:15px">Enter your email address to receive branch newsletters by email. </p>
+                <div class="title-3"><span>Follow us</span></div>
+                <!--<p style="color:#333;text-align:justify;padding-right:30px;padding-left:15px">Enter your email address to receive branch newsletters by email. </p>-->
                 <?php //gravity_form( 1, false, false, false, '', false ); ?>
-                <p style="color:#ff4e53;font-size:2rem;text-align:center;margin-top:20px">
+                <p style="color:#ff4e53;font-size:4rem;text-align:center;margin-top:20px">
                     <a href="https://www.facebook.com/nzchinasociety"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                     <a href="https://twitter.com/nzchinasociety"><i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i></a>
                     <a href="https://www.youtube.com/user/nzchinasociety"><i class="fa fa-youtube-play" aria-hidden="true" style="margin-left:5px"></i></a>
