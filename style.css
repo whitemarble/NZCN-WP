@@ -97,6 +97,11 @@ nav {
         color: #ff4e53
     }
 
+    .sitename-menu{
+        display:none;
+        color:#333
+    }
+
 @media (min-width:993px) {
     .nav-item {
         padding-top: 25px;
@@ -132,9 +137,26 @@ nav {
     .breaking-news {
         margin-top: 7.5rem
     }
+
+    .sitename-top{
+        display:none
+    }
+
+    .sitename-menu{
+        display:block;
+        margin-left:120px;
+        margin-top:10px
+    }
 }
 
 @media (max-width:575px) {
+
+    .sitename-menu{
+        display:block;
+        margin-left:110px;
+        margin-top:10px;
+        margin-right:35px
+    }
     #main-nav {
         margin-left: 10px;
         margin-top: 100px
@@ -768,4 +790,12 @@ nav {
     padding: 12px 20px;
     z-index: 1020;
     margin: 0 0 0 20px;
+}
+
+
+.meta-wrapper {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }

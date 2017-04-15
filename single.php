@@ -2,11 +2,8 @@
 
     <div class="container-fluid main-section post-content">
         <div class="row" >
-<div  class="col-1 col-lg-1 main-content">
 
-</div>
-
-	<content class="col-12 col-lg-7 main-content card post-content-artricle">
+	<content class="col-12 col-lg-7 main-content  post-content-artricle">
 
 <h1 class="post-content-title card-title">
 	<?php the_title(); ?> 
@@ -39,6 +36,27 @@ if (have_posts()) :
 </article>
 
 	</content>
+    <div  class="col-1 col-lg-1 main-content">
+
+
+
+
+
+
+
+
+
+
+<div class="meta-wrapper meta-square">
+    
+    
+</div>
+
+
+
+
+</div>
+
 	<aside class="col-12 col-lg-4 sidebar-right">
 
 <?php get_sidebar(); ?> 

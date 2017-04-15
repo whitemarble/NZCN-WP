@@ -10,11 +10,20 @@
     </head>
     
     <body> 
-        <div class="container-fluid topbar fixed-top">
+        <div class="container-fluid topbar fixed-top" style="height:31px">
             <div class="top-left">
-                <span style="font-size:14px">
+                <span style="font-size:14px" class="sitename-top">
+                    <?php _e('New Zealand China Friendship Society','nzcn-theme'); ?>
+                </span>
+                <span class="pull-right">
+                    <a href="https://www.facebook.com/nzchinasociety" style="font-size:20px;" ><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/nzchinasociety" style="font-size:20px;" ><i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://www.youtube.com/user/nzchinasociety" style="font-size:20px"><i class="fa fa-youtube-play" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://plus.google.com/101043413726480715544" style="font-size:20px"><i class="fa fa-google-plus-square" aria-hidden="true" style="margin-left:5px"></i></a>
+                </span>
+                <span class="pull-right" style="margin-right:10px">
                     <?php 
-                    /*if (function_exists('icl_get_languages')){
+                    if (function_exists('icl_get_languages')){
                         $languages = icl_get_languages('skip_missing=1');
                         if (count($languages) > 1){
                             foreach ($languages as $l) {
@@ -27,23 +36,11 @@
                             }
                         }
                     }
-                    echo $items." | ";*/
-                    echo "简体中文 | ";
+                    echo $items." | ";
                     if(ICL_LANGUAGE_CODE=='en')
-                        echo "<a href='http://www.nzcfsyouth.org/'>NZCFS YOUTH</a>";
-                    else echo "<a href='http://www.nzcfsyouth.org/'>新中友协青年站</a>";
+                        echo "<a href='http://www.nzcfsyouth.org/'>NZCFS YOUTH </a>";
+                    else echo "<a href='http://www.nzcfsyouth.org/'>新中友协青年站 </a>";
                     ?>
-                </span>
-                <span class="pull-right">
-                    <a href="https://www.facebook.com/nzchinasociety" style="font-size:20px"><i class="fa fa-facebook-square" aria-hidden="true"
-
-                    data-toggle="tooltip" data-html="true" title="64eretret"
-                    ></i></a>
-
-
-                    <a href="https://twitter.com/nzchinasociety" style="font-size:20px"><i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i></a>
-                    <a href="https://www.youtube.com/user/nzchinasociety" style="font-size:20px"><i class="fa fa-youtube-play" aria-hidden="true" style="margin-left:5px"></i></a>
-                    <a href="https://plus.google.com/101043413726480715544" style="font-size:20px"><i class="fa fa-google-plus-square" aria-hidden="true" style="margin-left:5px"></i></a>
                 </span>
             </div>
         </div>
@@ -52,9 +49,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="/" style="position:absolute;top:0px;z-index:999"><img src=<?php echo'"'.get_template_directory_uri().'/img/logo.png"'; ?> style="height:auto"></a>
-
+            <span class="sitename-menu"><?php _e('New Zealand China Friendship Society','nzcn-theme'); ?></span>
             <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><?php _e('Home','nzcn-theme'); ?></a>
+                    </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="" id="gotochina" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <?php _e('GO TO CHINA','nzcn-theme'); ?>
