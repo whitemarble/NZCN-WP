@@ -20,7 +20,7 @@ Template Name: branch Page
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -32,24 +32,34 @@ Template Name: branch Page
                       
 
                         
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                         <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
-                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
                         </div>
+
+
+
           <li><a href="">Christchurch News and Events</a></li>
 
           <?php 
@@ -58,7 +68,7 @@ Template Name: branch Page
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -71,19 +81,26 @@ Template Name: branch Page
 
                         
                             <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
-                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
@@ -107,18 +124,26 @@ Template Name: branch Page
                       
 
                         
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                              <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
                          
                             <?php endforeach; ?>
@@ -132,7 +157,7 @@ Template Name: branch Page
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -144,20 +169,27 @@ Template Name: branch Page
                       
 
                         
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                             <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
-                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
@@ -169,7 +201,7 @@ Template Name: branch Page
   
 
 
-  <div class="card">
+  <div class="">
                         <ul class="article-1" style=" line-height: 1em;">
 
 
@@ -180,21 +212,27 @@ Template Name: branch Page
                         ?>
                       
 
-                        
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                          <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
-                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
@@ -217,21 +255,27 @@ Template Name: branch Page
                         ?>
                       
 
-                        
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                           <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
-                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
@@ -254,21 +298,27 @@ Template Name: branch Page
                         ?>
                       
 
-                        
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                           <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
-                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
@@ -291,21 +341,27 @@ Template Name: branch Page
                         ?>
                       
 
-                        
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                           <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
-                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
@@ -328,21 +384,27 @@ Template Name: branch Page
                         ?>
                       
 
-                        
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                           <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
-                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
@@ -365,21 +427,27 @@ Template Name: branch Page
                         ?>
                       
 
-                        
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                           <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
-                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
@@ -402,21 +470,27 @@ Template Name: branch Page
                         ?>
                       
 
-                        
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                           <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
-                         
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
@@ -440,18 +514,26 @@ Template Name: branch Page
                       
 
                         
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                              <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
                          
                             <?php endforeach; ?>
@@ -477,18 +559,26 @@ Template Name: branch Page
                       
 
                         
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                              <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
                          
                             <?php endforeach; ?>
@@ -514,18 +604,26 @@ Template Name: branch Page
                       
 
                         
-                            <li>
-                    
-                             
-                                <div class="article-content">
-                                
-                                <p class="short-description"><?php the_excerpt(); ?>
-                                	
-                                	  <h6 style="display: line;color: red">More...</h6>
-                                </p>
-
+                              <li>
+                                <div class="article-img">
+                                <img src="<?php 
+                                    if(has_post_thumbnail($post->ID))
+                                        the_post_thumbnail_url( 'full' );
+                                    else echo mmimg($post->ID);
+                                 ?>" class="img-fluid" alt="Responsive image">
                                 </div>
-
+                                <div class="article-content">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                <p class="article-meta">
+                                    <i class="fa fa-archive" aria-hidden="true"></i> 
+                                    <span>
+                                        <a href="<?php echo esc_url( get_category_link( $categories[0]->term_id ) ); ?>">
+                                        <?php $categories = get_the_category(); echo $categories[0]->name; ?>
+                                        </a>
+                                    </span> <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                    <span><?php echo get_the_date();?></span></p>
+                                <p class="short-description"><?php the_excerpt(); ?></p>
+                                </div>
                             </li>
                          
                             <?php endforeach; ?>
