@@ -6,21 +6,23 @@ Template Name: Home Page English
 
 <?php get_header(); 
 ?>
-
 <!-- Section 1 new-->
     <div class="container-fluid breaking-news">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-xl-6">
+            <?php include "components/homeslider.php"; ?>
+            </div>
+            <div class="col-12 col-xl-6">
                 <ul class="big-news">
                     <?php
                     $post_index = 0;
                     //'suppress_filters' => false  仅获取当前语言文章
-                    $breaking_array = get_posts( 'numberposts=5&suppress_filters=0' );
+                    $breaking_array = get_posts( 'numberposts=4&suppress_filters=0&offset=3' );
                     foreach($breaking_array as $post) :  
                     ?>
-                        <li class="<?php if($post_index==0) echo 'first-news'; else echo ''?>">
+                        <li>
                             <div class="news-item">
-                                <p class="news-cat"><?php $categories = get_the_category(); echo $categories[0]->name; ?></p>
+                                <!--<p class="news-cat"><?php $categories = get_the_category(); echo $categories[0]->name; ?></p>-->
                                 <div class="news-img">
                                 <img src="<?php 
                                     if(has_post_thumbnail($post->ID))
@@ -40,6 +42,7 @@ Template Name: Home Page English
                     
                 </ul>
             </div>
+            
         </div>
     </div>
 
