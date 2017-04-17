@@ -64,34 +64,34 @@ if (have_posts()) :
 <div class="arrow-left">
     
 </div>
- <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
+
+  <?php 
+
+echo get_the_author_meta('display_name',$post->post_author);
+
+
+
+?>
+
+ </a></p>
 
 </div>
 
 
 </div>
-                    <div class="meta-content" data-toggle="tooltip" data-placement="right" title="this is time" data-toggle="tooltip" data-placement="right" title="this is time">social
+                    <div class="meta-content" style="padding-top: 22px;">Category
 
 <div class="meta-tooltip ">
 <div class="arrow-left">
     
 </div>
- <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
+ <span class="meta-title">Posted in</span><p><?php the_category(); ?></p>
 
 </div>
 
                     </div>
-                    <div class="meta-content" data-toggle="tooltip" data-placement="right" title="this is time">comment
-<div class="meta-tooltip ">
-<div class="arrow-left">
-    
-</div>
- <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
-
-</div>
-
-                    </div>
-                    <div class="meta-content" data-toggle="tooltip" data-placement="right" title="this is time">other
+                   
+                    <div class="meta-content" style="padding-top: 22px;">Social
 
 <div class="meta-tooltip ">
 <div class="arrow-left">
