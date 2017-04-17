@@ -54,10 +54,6 @@ if (have_posts()) :
 
 </div>
 
-
-
-
-
 <div class="meta-content" style="padding-top:4px;">
 <figure class="meta-figure" >
 <?php echo get_avatar( get_the_author_email(), 60 ); ?>
