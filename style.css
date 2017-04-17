@@ -855,9 +855,17 @@ width:45%;
     height: 70px;
     width: 70px;
     text-align: center;
-    padding-top: 23px;
+    padding-top: 12px;
     margin-bottom: 12px;
     position: relative;
+}
+
+.meta-figure{
+
+    height: 70px;
+    width: 70px;
+   /* padding:auto; 
+    text-align: center;*/
 }
 
 .arrow-left {

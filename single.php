@@ -40,14 +40,15 @@ if (have_posts()) :
 
 
    <ul class="col-lg-2 meta-wrapper">
-<div class="meta-content">time
+<div class="meta-content"><?php echo get_the_date();?>
 
 
 <div class="meta-tooltip ">
 <div class="arrow-left">
     
 </div>
- <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
+ <span class="meta-title">Posted in</span><p> <a href=""><?php echo get_the_date();?></a> 
+</p>
 
 </div>
 
@@ -57,7 +58,12 @@ if (have_posts()) :
 
 
 
-<div class="meta-content" data-toggle="tooltip" data-placement="right" title="this is time">autor
+<div class="meta-content" style="padding-top: 0px">
+<figure class="meta-figure">
+<?php echo get_avatar( get_the_author_email(), 70 ); ?>
+</figure>
+
+
 <div class="meta-tooltip ">
 <div class="arrow-left">
     
