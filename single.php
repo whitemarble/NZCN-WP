@@ -44,7 +44,7 @@ if (have_posts()) :
 
 
 <div class="meta-tooltip ">
-<div class="arrow-left ">
+<div class="arrow-left">
     
 </div>
  <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
@@ -54,63 +54,52 @@ if (have_posts()) :
 </div>
 
 
-<div class="meta-content">time
 
+
+
+<div class="meta-content" data-toggle="tooltip" data-placement="right" title="this is time">autor
+<div class="meta-tooltip ">
+<div class="arrow-left">
+    
+</div>
+ <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
+
+</div>
+
+
+</div>
+                    <div class="meta-content" data-toggle="tooltip" data-placement="right" title="this is time" data-toggle="tooltip" data-placement="right" title="this is time">social
 
 <div class="meta-tooltip ">
-<div class="arrow-left ">
+<div class="arrow-left">
     
 </div>
  <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
 
 </div>
 
+                    </div>
+                    <div class="meta-content" data-toggle="tooltip" data-placement="right" title="this is time">comment
+<div class="meta-tooltip ">
+<div class="arrow-left">
+    
 </div>
-<div class="meta-content">time
+ <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
 
+</div>
+
+                    </div>
+                    <div class="meta-content" data-toggle="tooltip" data-placement="right" title="this is time">other
 
 <div class="meta-tooltip ">
-<div class="arrow-left ">
+<div class="arrow-left">
     
 </div>
  <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
 
 </div>
 
-</div>
-
-
-<div class="meta-content">time
-
-
-<div class="meta-tooltip ">
-<div class="arrow-left ">
-    
-</div>
- <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
-
-</div>
-
-</div>
-
-<div class="meta-content">time
-
-
-<div class="meta-tooltip ">
-<div class="arrow-left ">
-    
-</div>
- <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
-
-</div>
-
-</div>
-
-
-
-
-    
-
+                    </div>
 </ul>
  </div>
 	</content>
