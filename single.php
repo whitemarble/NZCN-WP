@@ -58,9 +58,9 @@ if (have_posts()) :
 
 
 
-<div class="meta-content" style="padding-top: 0px">
-<figure class="meta-figure">
-<?php echo get_avatar( get_the_author_email(), 70 ); ?>
+<div class="meta-content" style="padding-top:4px;">
+<figure class="meta-figure" >
+<?php echo get_avatar( get_the_author_email(), 60 ); ?>
 </figure>
 
 
@@ -101,7 +101,13 @@ if (have_posts()) :
 <div class="arrow-left">
     
 </div>
- <span class="meta-title">Posted in</span><p><a href="http://www.nzcfsyouth.org/category/other-cool-stuff/">Other Cool Stuff</a></p>
+
+<p class="meta-social">
+                    <a href="https://www.facebook.com/nzchinasociety" style="color:#2a388f"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/nzchinasociety" style="color:#26a9e0"><i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://www.youtube.com/user/nzchinasociety" style="color:#ed1b23"><i class="fa fa-youtube-play" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://plus.google.com/101043413726480715544" style="color:#e64522"><i class="fa fa-google-plus-square" aria-hidden="true" style="margin-left:5px"></i></a></p>
+
 
 </div>
 

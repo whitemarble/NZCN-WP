@@ -862,10 +862,11 @@ width:45%;
 
 .meta-figure{
 
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
    /* padding:auto; 
     text-align: center;*/
+    margin:auto;
 }
 
 .arrow-left {
@@ -879,4 +880,11 @@ width:45%;
   top:28px;
 /*  z-index: 1020;*/
 
+}
+
+.meta-social{
+
+    font-size:2.5rem;
+    text-align:center;
+    margin: 0em;
 }
