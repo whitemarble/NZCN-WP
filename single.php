@@ -5,21 +5,10 @@
 
 	<content class="col-12 col-lg-8 main-content card post-content-artricle">
 
-<h1 class="post-content-title card-title">
+<h1 class=" card-title post-content-title">
 	<?php the_title(); ?> 
 </h1>
-<p class="article-meta post-content-aut ">
-by 
-<a href=""><?php 
 
-echo get_the_author_meta('display_name',$post->post_author);
-
-
-
-?> </a>
- <i class="fa fa-clock-o" aria-hidden="true"></i> 
- <a href=""><?php echo get_the_date();?></a> 
- </p>
  <div class="row">
 
 
@@ -45,9 +34,9 @@ if (have_posts()) :
 
 <div class="meta-tooltip ">
 <div class="arrow-left">
-    
+  
 </div>
- <span class="meta-title">Posted in</span><p> <a href=""><?php echo get_the_date();?></a> 
+ <span class="meta-title">Posted in</span><p style="color: whitesmoke"> <?php echo get_the_date();?>
 </p>
 
 </div>
@@ -56,7 +45,14 @@ if (have_posts()) :
 
 <div class="meta-content" style="padding-top:4px;">
 <figure class="meta-figure" >
-<?php echo get_avatar( get_the_author_email(), 60 ); ?>
+<!-- <?php echo get_avatar( get_the_author_email(), 60 ); ?> -->
+<?php if (empty(get_avatar( get_the_author_email(), 60 ))) {
+   echo get_avatar( get_the_author_email(), 60 ); 
+   echo "string".get_the_author_email();
+} else{ ?>
+
+<i class="fa fa-user fa-4x" aria-hidden="true"></i>
+<?php } ?>
 </figure>
 
 
@@ -85,7 +81,7 @@ echo get_the_author_meta('display_name',$post->post_author);
 <div class="arrow-left">
     
 </div>
- <span class="meta-title">Posted in</span><p><?php the_category(); ?></p>
+ <span class="meta-title">Posted in</span><p style="color: whitesmoke"><?php the_category(); ?></p>
 
 </div>
 
@@ -99,10 +95,10 @@ echo get_the_author_meta('display_name',$post->post_author);
 </div>
 
 <p class="meta-social">
-                    <a href="https://www.facebook.com/nzchinasociety" style="color:#2a388f"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/nzchinasociety" style="color:#26a9e0"><i class="fa fa-twitter-square" aria-hidden="true" style="margin-left:5px"></i></a>
-                    <a href="https://www.youtube.com/user/nzchinasociety" style="color:#ed1b23"><i class="fa fa-youtube-play" aria-hidden="true" style="margin-left:5px"></i></a>
-                    <a href="https://plus.google.com/101043413726480715544" style="color:#e64522"><i class="fa fa-google-plus-square" aria-hidden="true" style="margin-left:5px"></i></a></p>
+                    <a href="https://www.facebook.com/nzchinasociety" ><i class="fa fa-facebook-square meta-social-ico" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/nzchinasociety" ><i class="fa fa-twitter-square meta-social-ico" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://www.youtube.com/user/nzchinasociety" <i class="fa fa-youtube-play meta-social-ico" aria-hidden="true" style="margin-left:5px"></i></a>
+                    <a href="https://plus.google.com/101043413726480715544"><i class="fa fa-google-plus-square meta-social-ico" aria-hidden="true" style=" margin-left:5px"></i></a></p>
 
 
 </div>

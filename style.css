@@ -658,6 +658,8 @@ nav {
 
 .post-content-title {
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .post-content-aut {
@@ -672,6 +674,8 @@ nav {
 /* min-height: 60em;
  text-align: justify ;
 */
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .post-content-artricle h5 {
@@ -878,7 +882,9 @@ width:45%;
   position: absolute;
   left: -10px;
   top:28px;
-/*  z-index: 1020;*/
+  color: #2f3038;
+
+/* z-index: 1020;*/
 
 }
 
@@ -887,4 +893,12 @@ width:45%;
     font-size:2.5rem;
     text-align:center;
     margin: 0em;
+
 }
+.meta-social-ico{
+    color: whitesmoke;
+}
+.meta-social-ico:hover{
+color: #ff4e53;
+}
+

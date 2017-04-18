@@ -86,13 +86,13 @@ Template Name: category Page
 
 </div>
 </div>
-<ul class="post-social">
+<!-- <ul class="post-social">
 <i class="fa fa-facebook-square" aria-hidden="true"></i>
 <i class="fa fa-twitter-square" aria-hidden="true"></i>
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <i class="fa fa-weibo" aria-hidden="true"></i>
                     <i class="fa fa-weixin" aria-hidden="true"></i>
 </ul>
-
+ -->
 
 <?php get_footer(); ?>
