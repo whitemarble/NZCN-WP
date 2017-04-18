@@ -26,7 +26,7 @@ Template Name: Home Page
                                 <div class="news-img">
                                 <img src="<?php 
                                     if(has_post_thumbnail($post->ID))
-                                        the_post_thumbnail_url( 'full' );
+                                        the_post_thumbnail_url( 'thumbnail' );
                                     else echo mmimg($post->ID);
                                  ?>" class="img-fluid" alt="Responsive image">
                                 </div>
@@ -70,7 +70,7 @@ Template Name: Home Page
                                 <div class="article-img">
                                 <img src="<?php 
                                     if(has_post_thumbnail($post->ID))
-                                        the_post_thumbnail_url( 'full' );
+                                        the_post_thumbnail_url( 'thumbnail' );
                                     else echo mmimg($post->ID);
                                  ?>" class="img-fluid" alt="Responsive image">
                                 </div>
@@ -106,7 +106,7 @@ Template Name: Home Page
                                 <div class="article-img">
                                 <img src="<?php 
                                     if(has_post_thumbnail($post->ID))
-                                        the_post_thumbnail_url( 'full' );
+                                        the_post_thumbnail_url( 'thumbnail' );
                                     else echo mmimg($post->ID);
                                  ?>" class="img-fluid" alt="Responsive image">
                                 </div>
@@ -135,7 +135,7 @@ Template Name: Home Page
                                 <div class="article-img">
                                 <img src="<?php 
                                     if(has_post_thumbnail($post->ID))
-                                        the_post_thumbnail_url( 'full' );
+                                        the_post_thumbnail_url( 'thumbnail' );
                                     else echo mmimg($post->ID);
                                  ?>" class="img-fluid" alt="Responsive image">
                                 </div>

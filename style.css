@@ -674,12 +674,18 @@ nav {
 /* min-height: 60em;
  text-align: justify ;
 */
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-top:2rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
 }
 
 .post-content-artricle h5 {
     line-height: 1.5em;
+}
+
+.post-content-artricle img{
+    width:100%;
+    height:auto
 }
 
 .post-content-artricle p {
@@ -833,6 +839,7 @@ width:45%;
     padding: 12px 20px;
     z-index: 1020;
     margin: 0 0 0 20px;
+    border-radius: 3px
 }
 .meta-content:hover .meta-tooltip{
 
@@ -852,9 +859,14 @@ width:45%;
     margin: 0;
     padding: 0;
 }
-
+.meta-content i{
+    font-size:40px;
+    margin-top:4px
+}
 .meta-content {
-        display: block;
+    font-size:14px;
+    color:#fff;
+    display: block;
     background: #ff4e53;
     height: 70px;
     width: 70px;
@@ -862,6 +874,7 @@ width:45%;
     padding-top: 12px;
     margin-bottom: 12px;
     position: relative;
+    border-radius: 3px
 }
 
 .meta-figure{
@@ -900,5 +913,17 @@ width:45%;
 }
 .meta-social-ico:hover{
 color: #ff4e53;
+}
+
+@media screen and (max-width: 992px) {
+    .arrow-left{
+        display:none
+    }
+    .meta-tooltip{
+        right:0px
+    }
+    .post-content-title{
+        font-size:1.6rem
+    }
 }
 

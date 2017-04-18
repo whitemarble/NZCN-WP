@@ -16,24 +16,19 @@ Template Name: Search Page
     <content class="col-12 col-lg-7 main-content  post-content-artricle">
     <div class="row">
                     <div class="col-12">
-
-                        <ul class="article-1">
+<h3 class="page-title"><span>Search Result</span></h3>
+                        <ul class="article-1 card">
 <?php 
- $posts=query_posts($query_string .'&posts_per_page=20'); 
+$posts=query_posts($query_string .'&posts_per_page=12'); 
                         if (have_posts()) :      ?>
-  <div class="alert alert-danger" role="alert">
-  <strong>Well done!</strong> Your search result is .<?php
-
-echo count( $posts);
-?>
-</div>
+  
 <?php 
                             foreach( $posts as $post) :   
                             the_post();              
                         ?>
                       
 
-                        <div class="card">
+                        <div>
                             <li>
                     
                                 <div class="article-img">
@@ -53,25 +48,30 @@ echo count( $posts);
                          </div>
                             <?php endforeach; ?>
                             <?php endif; ?>
+
+                            
                         </ul>
+                        
                     </div>
+                     <?php 
+                            if  (paginate_links( $args )!=""): ?>              
+                            <nav class="card" style="height: 2em;margin-bottom:60px;margin-top:-60px" >
+                            <ul class="pagination pagination-lg" >
+                                <li>
+                                <a href="#" aria-label="Previous">
+                                </a>
+                                </li>
+                                    <?php echo paginate_links( $args ); ?>
+                                <li>
+                                <a href="#" aria-label="Next">
+                                </a>
+                                </li>
+                            </ul>
+                            </nav>        
+                            <?php endif; ?>
                 </div>
-              
-<nav>
-  <ul class="pagination pagination-lg">
-    <li>
-      <a href="#" aria-label="Previous">
-      <span aria-hidden="true">«</span>
-      </a>
-    </li>
-   <?php echo paginate_links( $args ); ?>
-    <li>
-      <a href="#" aria-label="Next">
-      <span aria-hidden="true">»</span>
-      </a>
-    </li>
-  </ul>
-</nav>        
+             
+      
 
           
     </content>

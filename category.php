@@ -17,7 +17,7 @@ Template Name: category Page
     <!--<div class="row">
                     <div class="col-12">-->
 <?php 
- $posts=query_posts($query_string .'&posts_per_page=15'); 
+ $posts=query_posts($query_string .'&posts_per_page=12'); 
                         if (have_posts()) :      ?>
   
 
@@ -40,7 +40,7 @@ Template Name: category Page
                                 <div class="article-img">
                                 <img src="<?php 
                                     if(has_post_thumbnail($post->ID))
-                                        the_post_thumbnail_url( 'full' );
+                                        the_post_thumbnail_url( 'thumbnail' );
                                     else echo mmimg($post->ID);
                                  ?>" class="img-fluid" alt="Responsive image">
                                 </div>
@@ -55,27 +55,22 @@ Template Name: category Page
                             <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
+
+                        <?php 
+                            if  (paginate_links( $args )!=""): ?>              
+                            <nav class="card" style="height: 2em" style="margin-bottom:30px">
+                            <ul class="pagination pagination-lg" >
+                                <li>
+                            <?php echo paginate_links( $args ); ?>
+                                </li>
+                            </ul>
+                            </nav>        
+                            <?php endif; ?>
+                                    
                         </div>
                    <!-- </div>
                 </div>-->
-<?php if  (count($posts)>15): ?>              
-<nav class="card" style="height: 2em">
-  <ul class="pagination pagination-lg" style="margin-bottom:30px">
-    <li>
-      <a href="#" aria-label="Previous">
-      <span aria-hidden="true">«</span>
-      </a>
-    </li>
-   <?php echo paginate_links( $args ); ?>
-    <li>
-      <a href="#" aria-label="Next">
-      <span aria-hidden="true">»</span>
-      </a>
-    </li>
-  </ul>
-</nav>        
- <?php endif; ?>
-          
+
     </content>
 
     <aside class="col-12 col-lg-4 sidebar-right">

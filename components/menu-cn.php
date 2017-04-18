@@ -14,8 +14,8 @@
                         前往中国
                         </a>
                         <div class="dropdown-menu" aria-labelledby="gotochina">
-                            <a class="dropdown-item" href="/news/tours-to-china/">游览中国</a>
-                            <a class="dropdown-item" href="/news/teach-in-china/">在中国教书</a>
+                            <a class="dropdown-item" href="#">游览中国</a>
+                            <a class="dropdown-item" href="#">在中国教书</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -23,21 +23,21 @@
                         新闻与活动
                         </a>
                         <div class="dropdown-menu" aria-labelledby="newsarticles">
-                            <a class="dropdown-item" href="/news/updates/news-and-events/">新闻中心</a>
-                            <a class="dropdown-item" href="/branch-news">分会新闻</a>
+                            <a class="dropdown-item" href="#">新闻中心</a>
+                            <a class="dropdown-item" href="#">分会新闻</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/rewi-alley/">路易-艾黎</a>
+                        <a class="nav-link" href="#">路易-艾黎</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="aboutus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         关于我们
                         </a>
                         <div class="dropdown-menu" aria-labelledby="aboutus">
-                            <a class="dropdown-item" href="/about-the-new-zealand-china-friendship-society/">关于我们</a>
-                            <a class="dropdown-item" href="/news/project-updates/">我们的项目</a>
-                            <a class="dropdown-item" href="/donations/">捐款</a>
+                            <a class="dropdown-item" href="#">关于我们</a>
+                            <a class="dropdown-item" href="#">我们的项目</a>
+                            <a class="dropdown-item" href="#">捐款</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -45,8 +45,8 @@
                         联系我们
                         </a>
                         <div class="dropdown-menu" aria-labelledby="contactus">
-                            <a class="dropdown-item" href="/contact-us/">联系信息</a>
-                            <a class="dropdown-item" href="/join-now/">马上加入</a>
+                            <a class="dropdown-item" href="#">联系信息</a>
+                            <a class="dropdown-item" href="#">马上加入</a>
                         </div>
                     </li>
                 </ul>
